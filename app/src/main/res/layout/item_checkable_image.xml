@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/item_background"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8.0dip"
+        android:background="@drawable/ic_checkbox_pink"
+        android:button="@null"
+        android:gravity="center"/>
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/icon"
+        xmlns:fresco="http://schemas.android.com/apk/com.facebook.drawee"
+        android:layout_width="118.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/checkbox"
+        android:scaleType="centerCrop"
+        fresco:aspectRadioHeight="10"
+        fresco:aspectRadioWidth="16"
+        fresco:placeholderImage="@color/gray_light"
+        fresco:scaleViewType="fitWidth"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="8.0dip"
+        android:layout_marginRight="8.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_toRightOf="@id/icon"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textSize="14sp"
+        android:textColor="?android:textColorPrimary"/>
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/title"
+        android:layout_marginBottom="4.0dip"
+        android:singleLine="true"
+        android:textSize="13sp"
+        android:textColor="?android:textColorSecondary"/>
+
+</RelativeLayout>

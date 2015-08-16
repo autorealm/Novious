@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="wrap_content" android:background="?selectableItemBackground"
+    android:minHeight="40.0dip"
+    android:paddingLeft="8.0dip">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+    <ImageButton
+        android:id="@+id/action_button"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="?selectableItemBackground"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@android:drawable/ic_media_play"/>
+    <TextView
+        android:id="@id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:layout_toLeftOf="@id/action_button"
+        android:layout_toRightOf="@id/checkbox"
+        android:textSize="14sp"
+        android:textColor="@android:color/primary_text_dark_nodisable"/>
+    <LinearLayout
+        android:id="@+id/state_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_toLeftOf="@id/action_button"
+        android:layout_toRightOf="@id/checkbox"
+        android:gravity="center|right">
+        <ImageView
+            android:id="@+id/storage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@android:drawable/stat_notify_sdcard"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4.0dip"
+            android:textSize="12sp"
+            android:textColor="@android:color/secondary_text_dark_nodisable"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/title"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@id/state_bar"
+        android:layout_toLeftOf="@id/action_button"
+        android:max="100"
+        android:visibility="gone"/>
+
+</RelativeLayout>

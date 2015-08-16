@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:paddingBottom="2.0dip">
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_background"
+        android:gravity="center"
+        android:minWidth="110.0dip"
+        android:padding="8.0dip"
+        android:text="更多"
+        android:textColor="?android:textColorPrimary"/>
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ica_light_ic_action_refresh"/>
+    <TextView
+        android:id="@+id/refresh_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/refresh"
+        android:gravity="center"
+        android:padding="8.0dip"
+        android:text="有新动态，点击刷新"
+        android:textColor="?android:textColorPrimary"/>
+</RelativeLayout>

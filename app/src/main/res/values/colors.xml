@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary: Blue -->
+    <color name="primary_blue_100">#D0D9FF</color>
+    <color name="primary_blue_500">#5677FC</color>
+    <color name="primary_blue_700">#455EDE</color>
+
+    <!-- Primary: Grey -->
+    <color name="primary_grey_200">#EEEEEE</color>
+    <color name="primary_grey_300">#E0E0E0</color>
+    <color name="primary_grey_400">#99BDBDBD</color>
+
+    <!-- Accent: Pink -->
+    <color name="accent_pink_a100">#FF80AB</color>
+    <color name="accent_pink_a200">#FF4081</color>
+    <color name="accent_pink_a400">#F50057</color>
+
+    <!-- Accent: Cyan -->
+    <color name="accent_cyan_100">#b2ebf2</color>
+    <color name="accent_cyan_200">#80deea</color>
+    <color name="accent_cyan_400">#26c6da</color>
+    <color name="accent_cyan_700">#0097a7</color>
+    <color name="accent_cyan_a100">#84ffff</color>
+    <color name="accent_cyan_a200">#18ffff</color>
+    <color name="accent_cyan_a400">#00e5ff</color>
+    <color name="accent_cyan_a700">#00b8d4</color>
+
+    <!-- Text, Icon, Divider -->
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="hint_text">#B8B8B8</color>
+    <color name="icon">#727272</color>
+    <color name="divider">#DADADA</color>
+
+    <!-- Backgrounds. -->
+    <color name="primary_background">#FAFAFA</color>
+    <color name="secondary_background">#FFFFFF</color>
+
+    <!-- design. -->
+    <color name="black">#ff000000</color>
+    <color name="black_light">#ff333333</color>
+    <color name="black_trans">#66000000</color>
+    <color name="gray">#ffbbbbbb</color>
+    <color name="gray_dark">#ff999999</color>
+    <color name="gray_light">#ffdcdcdc</color>
+    <color name="gray_lighter">#ffeaeaea</color>
+    <color name="gray_trans">#44999999</color>
+    <color name="gray_trans_lighter">#22999999</color>
+    <color name="night">#ff2d2d2d</color>
+    <color name="night_dark">#ff242424</color>
+    <color name="night_dark_trans">#99242424</color>
+    <color name="night_light">#ff3d3d3d</color>
+    <color name="night_trans">#992d2d2d</color>
+    <color name="pink">#fffb7299</color>
+    <color name="pink_dark">#ffb85671</color>
+    <color name="pink_dark_trans">#99b85671</color>
+    <color name="pink_light">#ffb87891</color>
+    <color name="pink_trans">#99f0486c</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_lighter">#ccffffff</color>
+    <color name="white_trans">#99ffffff</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff757575</color>
+    <color name="primary_material_dark">#ff212121</color>
+    <color name="primary_material_light">#ffefefef</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+
+</resources>
